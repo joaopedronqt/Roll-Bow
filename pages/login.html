@@ -16,31 +16,34 @@
 <body>
 
     <div id="Container">
-        <div id="container2">
+        <div id="login-box">
 
-            <div class="left">
+            <div class="login-image">
                 <img src="../assets/images/rollbow2.png" alt="">
             </div>
 
-            <div class="right">
+            <div class="login-container">
 
-                <form class="form" action="">
-                        <h1><strong>Conecte-se <br> <hr></strong></h1>
-                        
+                <form class="login-form" action="">
+                    <h1><strong>Conecte-se <br>
+                            <hr>
+                        </strong></h1>
 
-                        <label for="email"><strong>EMAIL</strong></label><br>
-                        <input type="email" placeholder="Entre usando seu Email" required> <br>
 
-                        <label for="nome"><strong>SENHA</strong></label><br>
-                        <input type="password" placeholder="Sua Senha" required><br>
+                    <label  for="email"><strong>EMAIL</strong></label><br>
+                    <input id="email" name="email" type="email" placeholder="Entre usando seu Email" required> <br>
 
-                        <button type="submit">Entrar</button>
+                    <label for="password"><strong>SENHA</strong></label><br>
+                    <input id="password" name="password" type="password" placeholder="Sua Senha" required><br>
 
-                        <p>Esqueceu sua senha? <a href="alterar.html"><u>Alterar senha</u></a> <br> Ainda não tem uma conta? <a href="register.html"><u>Cadastre-se</u></a></p>
+                    <button name="btn-login" type="submit">Entrar</button>
 
-                        
+                    <p>Esqueceu sua senha? <a href="alterar.html"><u>Alterar senha</u></a> <br> Ainda não tem uma conta?
+                        <a href="register.html"><u>Cadastre-se</u></a></p>
 
-                    </form>
+
+
+                </form>
             </div>
         </div>
     </div>
