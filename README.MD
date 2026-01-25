@@ -12,4 +12,5 @@ Tela de login criada para fins de estudos alinhados com a necessidade de criar u
 
 🚧 Em construção
 
-![Logo](assets/images/rollbow2.png)
+
+ ![Logo](assets/images/LogoNova2.png)  
